@@ -35,8 +35,8 @@ I've included 4 screenshots in the `/screenshots` folder: mobile, tablet, deskto
 
 I'll update these links once I've submitted my solution. 
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-bem-and-flexbox-7rQRpw8eg)
+- [Live Site URL](https://victor-nyagudi.github.io/social-proof-section/)
 
 ## My process
 
@@ -62,4 +62,8 @@ Completed this in the 4-6 hour window I set for myself, so I'm happy with that. 
 This is the last of the "newbie" challenges, so I'll be moving to the "junior" ones from now on, God-willing. 
 Hoping to get some JavaScript practice in there somewhere as well.
 
-Here's to greater things! 
+One thing I haven't put enough emphasis on is accessibility, so that's something I plan to work on going forward.
+I learned after submitting my solution that heading tags should be ordered in chronological order from `<h1>` to
+`<h6>`.
+
+I'll implement this in future projects as well as make the change on this challenge when I find some time. 

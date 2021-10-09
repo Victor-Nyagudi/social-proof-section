@@ -148,6 +148,9 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
+        background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .container {
@@ -163,12 +166,7 @@ p {
         width: 50%;
     }
 
-    .social-proof--bottom {
-        background-image: url('./images/bg-pattern-bottom-desktop.svg');
-    }
-
     .social-proof--top {
-        background-image: url('./images/bg-pattern-top-desktop.svg');
         margin-bottom: 2em;
     }
 

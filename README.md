@@ -64,5 +64,5 @@ One thing I haven't put enough emphasis on is accessibility, so that's something
 I learned after submitting my solution that heading tags should be ordered in chronological order from `<h1>` to
 `<h6>`.
 
-Took some time and learned about accessibility and, ultimately, made the change that improved the accessibility  of
+Took some time and learned about accessibility and, ultimately, made the change that improved the accessibility of
 my solution.

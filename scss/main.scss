@@ -1,0 +1,121 @@
+@import './config';
+
+body {
+    font-family: $primary-font;
+    font-size: .92rem;
+    font-weight: getFontWeight('medium');
+    color: getColor('dark-grayish-magenta');
+
+    background-image: url('../images/bg-pattern-bottom-mobile.svg');
+    background-color: getColor('white');
+    margin: 0;
+}
+
+h1, h2, h3, h4, p { margin: 0; }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.social-proof {
+    margin: 5.5em 0;
+
+    &--top {
+        text-align: center;
+        
+        background-image: url('../images/bg-pattern-top-mobile.svg');
+        background-repeat: no-repeat;
+    }
+
+    &--bottom {
+        background-image: url('../images/bg-pattern-bottom-mobile.svg');
+        background-repeat: no-repeat;
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: getFontWeight('bolc');
+        color: getColor('very-dark-magenta');
+        
+        letter-spacing: -1px;
+        line-height: 1.1;
+    
+        margin-bottom: .75em;
+    }
+
+    &__message { line-height: 1.75; }
+
+    &__ratings { margin: 2.75em 0; }
+
+    &__rating {
+        font-size: .825rem;
+        font-weight: getFontWeight('bold');
+        color: getColor('very-dark-magenta');
+        
+        background-color: getColor('light-grayish-magenta');
+        border-radius: 8px;
+        
+        padding: 1.2em;
+        margin-bottom: 1.2em;
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            gap: .65em;
+            
+            margin-bottom: 1.2em;
+        }
+    }
+
+    &__review {
+        font-size: .85rem;
+        color: getColor('light-grayish-magenta');
+
+        background-color: getColor('very-dark-magenta');
+        border-radius: 8px;
+
+        margin-bottom: 1.3em;
+        padding: 2.5em 2em;
+    }
+
+    .reviewer {
+        display: flex;
+        align-items: center;
+        gap: .7em;
+        
+        margin-bottom: 1em;
+
+        &__image-container { 
+            width: 20%; 
+            margin-bottom: 1em;
+        }
+
+        &__image {
+            display: block;
+            border-radius: 50%;
+            width: 75%;
+        }
+
+        &__credentials {
+            font-size: .8rem;
+            margin-bottom: 1em;
+        }
+
+        &__name { 
+            font-size: .8rem;
+            margin-bottom: .3em; 
+        }
+
+        &__status {
+            font-size: .8rem;
+            font-weight: getFontWeight('regular');
+            color: getColor('soft-pink');
+        }
+
+        &__message { line-height: 1.6; }
+    }
+}
+
+@import './responsive';

@@ -27,13 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/social-proof-section-fullscreen.png)
+![](./dist/screenshots/social-proof-section-fullscreen.png)
 
 I've included 4 screenshots in the `/screenshots` folder: mobile, tablet, desktop, and fullscreen.
 
 ### Links
-
-I'll update these links once I've submitted my solution. 
 
 - [Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-bem-and-flexbox-7rQRpw8eg)
 - [Live Site URL](https://victor-nyagudi.github.io/social-proof-section/)
@@ -46,7 +44,7 @@ slowly expanded from there.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS
 - Flexbox
 - Mobile-first workflow
 
@@ -66,4 +64,5 @@ One thing I haven't put enough emphasis on is accessibility, so that's something
 I learned after submitting my solution that heading tags should be ordered in chronological order from `<h1>` to
 `<h6>`.
 
-I'll implement this in future projects as well as make the change on this challenge when I find some time. 
+Took some time and learned about accessibility and, ultimately, made the change that improved the accessibility  of
+my solution.
